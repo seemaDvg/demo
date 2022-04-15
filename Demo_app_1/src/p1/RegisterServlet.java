@@ -33,6 +33,7 @@ public class RegisterServlet extends HttpServlet {
 	
 	System.out.println(email);
 	System.out.println(password);
+	System.out.println("hello");
 	
 	try {
 		Class.forName("com.mysql.jdbc.Driver");
